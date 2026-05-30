@@ -165,7 +165,7 @@ a {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?w=1400&auto=format&fit=crop&q=80');
+  background-image: url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1400&auto=format&fit=crop&q=80');
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -176,7 +176,7 @@ a {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15,30,70,0.82) 0%, rgba(30,60,120,0.72) 100%);
+  background: linear-gradient(135deg, rgba(0,0,0,0.88) 0%, rgba(20,0,0,0.80) 100%);
 }
 
 .hero-inner {
