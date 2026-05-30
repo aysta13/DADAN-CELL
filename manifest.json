@@ -1,0 +1,25 @@
+{
+  "name": "DADAN CELL - Phone Repair Mobile",
+  "short_name": "DADAN CELL",
+  "description": "Servis HP Cepat & Terpercaya di Kp. Cigempol",
+  "start_url": "/DADAN-CELL/",
+  "scope": "/DADAN-CELL/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#cc0000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
