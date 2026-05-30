@@ -4,16 +4,16 @@
 // walau tidak ada internet
 // ===========================
 
-const CACHE_NAME = 'dadan-cell-v1';
+const CACHE_NAME = 'dadan-cell-v2';
 
 // File yang disimpan di cache (offline)
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/logo.png',
-  '/manifest.json'
+  '/dadan-cell/',
+  '/dadan-cell/index.html',
+  '/dadan-cell/style.css',
+  '/dadan-cell/script.js',
+  '/dadan-cell/logo.png',
+  '/dadan-cell/manifest.json'
 ];
 
 // ===========================

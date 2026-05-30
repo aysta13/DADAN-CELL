@@ -3,7 +3,7 @@
 // ===========================
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/dadan-cell/sw.js', { scope: '/dadan-cell/' })
       .then(function() {
         console.log('DADAN CELL: PWA aktif!');
       })
