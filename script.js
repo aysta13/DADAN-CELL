@@ -1,4 +1,19 @@
 // ===========================
+// REGISTER SERVICE WORKER (PWA)
+// ===========================
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js')
+      .then(function() {
+        console.log('DADAN CELL: PWA aktif!');
+      })
+      .catch(function(err) {
+        console.log('Service worker gagal:', err);
+      });
+  });
+}
+
+// ===========================
 // NAVBAR MOBILE TOGGLE
 // ===========================
 
