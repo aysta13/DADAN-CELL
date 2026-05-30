@@ -23,15 +23,57 @@ a {
   color: inherit;
 }
 
-/* ===========================
-   NAVBAR
-=========================== */
+/* Logo navbar */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #1a202c;
+  letter-spacing: 0.5px;
+}
+
+.nav-logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #000;
+  padding: 2px;
+}
+
+/* Logo hero */
+.hero-logo-wrap {
+  margin-bottom: 24px;
+}
+
+.hero-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 20px;
+  background: #000000;
+  padding: 8px;
+  box-shadow:
+    0 0 0 1px rgba(255,200,0,0.3),
+    0 8px 32px rgba(0,0,0,0.5),
+    0 0 40px rgba(220,30,30,0.2);
+  animation: logoPulse 3s ease-in-out infinite;
+}
+
+@keyframes logoPulse {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(255,200,0,0.3), 0 8px 32px rgba(0,0,0,0.5), 0 0 40px rgba(220,30,30,0.2); }
+  50%       { box-shadow: 0 0 0 2px rgba(255,200,0,0.6), 0 8px 40px rgba(0,0,0,0.6), 0 0 60px rgba(220,30,30,0.4); }
+}
+
+
 .navbar {
   position: sticky;
   top: 0;
   background: #ffffffee;
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 2px solid #e8000020;
   z-index: 100;
 }
 
@@ -510,11 +552,12 @@ a {
    FOOTER
 =========================== */
 .footer {
-  background: #1a202c;
-  color: #a0aec0;
+  background: #0a0a0a;
+  color: #888;
   text-align: center;
   padding: 24px;
   font-size: 14px;
+  border-top: 2px solid #cc0000;
 }
 
 /* ===========================
